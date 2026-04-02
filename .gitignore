@@ -135,6 +135,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+# file chứa API key, không được commit
 .env
 .envrc
 .venv
@@ -205,3 +206,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# dữ liệu thô dung lượng lớn
+data/raw/
+
+# model weights
+*.pth và *.pt 
